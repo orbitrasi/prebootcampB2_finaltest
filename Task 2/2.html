@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" onsubmit="return false">
+        <label>Total Price</label>
+        <input type="number" name="total">
+    </br>
+        <label>Voucher</label>
+        <select id="disc">
+            <option value="DumbWaysJos">DumbWaysJos</option>
+            <option value="DumbWaysMantap">DumbWaysMantap</option>
+        </select>
+        <button type="submit" onclick="discount()">Submit</button>
+    </form>
+
+    <h3>Ouput</h3>
+    <ul id="output"></ul>
+
+    <script src="2.js"></script>
+</body>
+</html>
